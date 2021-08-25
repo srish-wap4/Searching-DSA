@@ -25,11 +25,11 @@ int fun_iterative(vector<int> arr, int x)
 
 int fun_recursive(int low, int high, vector<int> arr, int x)
 {
-    if(low > mid)
+    if(low > high)
     {
         return -1;
     }
-    
+
     int mid = (low + high)/2;
     if(arr[mid] == x)
     {
