@@ -74,6 +74,6 @@ int fun(vector<int> arr, int x)
 
 int main()
 {
-
+    // Pass a sorted vector and an item to search
     return 0;
 }
