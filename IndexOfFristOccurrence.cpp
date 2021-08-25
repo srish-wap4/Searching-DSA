@@ -1,8 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int fun(vector<int> arr, int low, int high, int x)
+int fun(vector<int> arr, int x)
 {
+    int low = 0;
+    int high = arr.size() - 1;
+    
     while(low <= high)
     {
         int mid = (low + high)/2;
